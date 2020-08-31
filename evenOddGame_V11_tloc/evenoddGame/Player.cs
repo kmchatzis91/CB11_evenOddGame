@@ -51,7 +51,7 @@ namespace evenoddGame
 				Console.ForegroundColor = ConsoleColor.Yellow;
 				Console.WriteLine("\n Based on your choices your total bet is: \n");
 				Console.ForegroundColor = ConsoleColor.Cyan;
-				Console.WriteLine(" Bet ({0} Euros) * Draws ({1} Euros) = Total Bet ({2} Euros) ", moneyBet, numberofDraws, totalBet);
+				Console.WriteLine(" Bet ({0} Euros) * Draws ({1}) = Total Bet ({2} Euros) ", moneyBet, numberofDraws, totalBet);
 				Console.ForegroundColor = ConsoleColor.White;
 				Console.WriteLine("\n Is that ok with you? \n");
 				continueORnot = ValidBool();
